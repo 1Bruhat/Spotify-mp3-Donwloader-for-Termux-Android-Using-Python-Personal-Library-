@@ -9,7 +9,12 @@ NOTE: This script may break at any time as it depends on external APIs and servi
 ── SETUP (Termux on Android)
 
 Allow storage access: termux-setup-storage
+
 Install dependencies: pkg install python python-pip ffmpeg
+
+(in case of error, install them separately)
+
+The installation of "pkg upgrade" is recommended
 
 Go to Downloads: cd /storage/emulated/0/Download
 
