@@ -1,5 +1,9 @@
 <img width="1080" height="2340" alt="27c92dad-5964-437a-9f60-bb0e0a9abcdb-1_all_54897" src="https://github.com/user-attachments/assets/a7fb1699-7ecd-4b8c-be80-4d264f57d2b5" />
 
+WARNING: This script will only download the original Liked playlist, other songs in other playlists that are not in the Liked playlist will not be downloaded.
+
+After the download, other playlists will still be created, but songs that are exclusively on these playlists will be missing.
+
 NOTE: This script may break at any time as it depends on external APIs and services that change without notice. If something stops working, check the original source for an updated version.
 
 ── SETUP (Termux on Android)
