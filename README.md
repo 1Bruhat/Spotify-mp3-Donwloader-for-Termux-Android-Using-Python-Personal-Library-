@@ -7,7 +7,7 @@ NOTE: This script may break at any time as it depends on external APIs and servi
 Allow storage access: termux-setup-storage
 Install dependencies: pkg install python python-pip ffmpeg
 
-Go to Downloads: cd/storage/emulated/0/Download
+Go to Downloads: cd /storage/emulated/0/Download
 
 Run the script: python spotify_downloader.py
 
