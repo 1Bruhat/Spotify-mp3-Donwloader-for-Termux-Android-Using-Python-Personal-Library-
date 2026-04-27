@@ -46,6 +46,23 @@ After it finishes, rename the folder to refresh Samsung Music:
 
 Import the .m3u playlist file in Samsung Music (hiding the Spotify tab is optional but keeps things tidy).
 
+ ── HOW IT WORKS
+ 
+This script downloads your entire Spotify Liked Songs library and creates M3U playlists for your saved playlists, complete with metadata.
+
+It uses Spotify Web API, ytdlp, YTMusic API, mutagen, LRCLIB, Musixmatch, Spotify Partner API, TOTP and spotipy
+
+- You provide your Spotify API credentials (Client ID and Secret) on first run.
+- The script authenticates with Spotify and exports all your Liked Songs and playlists as CSV files inside a ZIP archive.
+- It scans local MP3s by ISRC to identify which tracks are missing or extra.
+- For each missing song it searches YouTube Music (Best quality and no "videoclip audio") and downloads the best audio match as MP3 using ytdlp.
+- It embeds ID3 metadata: title, artist, album year, cover, spotify view count and synced lyrics.
+- It fetches the release date and real play count from Spotify Partner API using a live TOTP token and writes both into the lyrics tag.
+- After downloading all songs, it generates M3U playlist files based on your Spotify playlists referencing the local MP3 files.
+- Finally, it renames the output folder to force Samsung Music to reindex the tracks.
+
+The script is designed for Termux on Android and maintains a persistent Spotify login cache, so subsequent runs only download new or changed tracks.
+
 <img width="1080" height="2340" alt="1000154164" src="https://github.com/user-attachments/assets/9ee7c532-9326-4d69-b8a2-b46d6d654363" />
 
 <img width="590" height="1280" alt="1000154203" src="https://github.com/user-attachments/assets/f3e9fd64-42d1-447d-b92a-9690cb757463" />
