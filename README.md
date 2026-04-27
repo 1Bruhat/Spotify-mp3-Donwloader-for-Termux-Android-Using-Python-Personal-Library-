@@ -47,4 +47,9 @@ After it finishes, rename the folder to refresh Samsung Music:
 Import the .m3u playlist file in Samsung Music (hiding the Spotify tab is optional but keeps things tidy).
 
 <img width="1080" height="2340" alt="1000154164" src="https://github.com/user-attachments/assets/9ee7c532-9326-4d69-b8a2-b46d6d654363" />
+
+<img width="590" height="1280" alt="1000154203" src="https://github.com/user-attachments/assets/f3e9fd64-42d1-447d-b92a-9690cb757463" />
+
 <img width="1080" height="2340" alt="1000154162" src="https://github.com/user-attachments/assets/ec847ea9-2d37-4870-b067-29465bd0513e" />
+
+<img width="1080" height="2340" alt="1000154196" src="https://github.com/user-attachments/assets/c070cc73-d172-4f84-bf6c-e0078e0b9a4b" />
