@@ -8,19 +8,27 @@ NOTE: This script may break at any time as it depends on external APIs and servi
 
 ── SETUP (Termux on Android)
 
-Allow storage access: termux-setup-storage
+Copy and paste this command line into termux to install all required packages.
 
-Install dependencies: pkg install python python-pip ffmpeg
+```bash
+echo -e "\033[33m>>> You have 10 seconds to allow storage access.\033[0m" && sleep 3 && termux-setup-storage && sleep 13 && echo -e "\033[33m>>> Answer 'y' to all installation prompts.\033[0m" && pkg update -y && pkg upgrade -y && pkg install python python-pip ffmpeg -y && clear && echo -e "\033[32m>>> Starting spotify_downloader.py in Downloads folder.\n\n>>> For next runs, use: python /storage/emulated/0/Download/spotify_downloader.py\n\033[0m" && echo "" && cd /storage/emulated/0/Download && python spotify_downloader.py
+```
+
+Alternatively, you can install them manually.
+
+- Allow storage access: termux-setup-storage
+
+- Install dependencies: pkg install python python-pip ffmpeg
 
 (in case of error, install them separately)
 
-The installation of "pkg upgrade" is recommended
+- The installation of "pkg upgrade" is recommended
 
-Go to Downloads: cd /storage/emulated/0/Download
+- Go to Downloads: cd /storage/emulated/0/Download
 
-Run the script: python spotify_downloader.py
+- Run the script: python spotify_downloader.py
 
-Python packages (yt-dlp, mutagen, spotipy, etc.) install automatically.
+- Python packages (yt-dlp, mutagen, spotipy, etc.) install automatically.
 
  ── SPOTIFY API CREDENTIALS
 
