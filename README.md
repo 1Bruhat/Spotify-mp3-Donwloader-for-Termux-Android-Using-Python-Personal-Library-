@@ -1,5 +1,6 @@
 <img width="1280" height="200" alt="Readme Baner" src="https://github.com/user-attachments/assets/77edab0b-3c33-4b71-a592-405722325fb2" />
 
+
 NOTE: Only songs from the Liked playlist will be downloaded. Other playlists will still be created, but any songs not in Liked will be missing.
 
 ── SETUP (Termux on Android)
@@ -12,7 +13,7 @@ echo -e "\033[33m>>> You have 10 seconds to allow storage access.\033[0m" && sle
 
  ── SPOTIFY API CREDENTIALS
 
-On first run, the script will ask and guide you for your Client ID and Secret, saving them to the data folder.
+On first run, the script will ask and guide you through your Client ID and Secret, saving them to the data folder.
 
  ── USING THE SCRIPT
 
