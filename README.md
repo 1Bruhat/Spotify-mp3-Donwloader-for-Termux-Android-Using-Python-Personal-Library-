@@ -1,4 +1,4 @@
-<img width="1080" height="2340" alt="27c92dad-5964-437a-9f60-bb0e0a9abcdb-1_all_54897" src="https://github.com/user-attachments/assets/a7fb1699-7ecd-4b8c-be80-4d264f57d2b5" />
+<img width="1280" height="200" alt="Readme Baner" src="https://github.com/user-attachments/assets/77edab0b-3c33-4b71-a592-405722325fb2" />
 
 NO DATA LEAVES YOUR DEVICE
 
@@ -85,10 +85,5 @@ It uses Spotify Web API, ytdlp, YTMusic API, mutagen, LRCLIB, Musixmatch, Spotif
 
 The script is designed for Termux on Android and maintains a persistent Spotify login cache, so subsequent runs only download new or changed tracks.
 
-<img width="1080" height="2340" alt="1000154164" src="https://github.com/user-attachments/assets/9ee7c532-9326-4d69-b8a2-b46d6d654363" />
-
-<img width="590" height="1280" alt="1000154203" src="https://github.com/user-attachments/assets/f3e9fd64-42d1-447d-b92a-9690cb757463" />
-
-<img width="1080" height="2340" alt="1000154162" src="https://github.com/user-attachments/assets/ec847ea9-2d37-4870-b067-29465bd0513e" />
-
-<img width="1080" height="2340" alt="1000154196" src="https://github.com/user-attachments/assets/c070cc73-d172-4f84-bf6c-e0078e0b9a4b" />
+<img width="720" height="780" alt="img 1" src="https://github.com/user-attachments/assets/4fc50ebf-081a-490c-ac44-fc0f43cb98c7" />
+<img width="720" height="780" alt="Img 2" src="https://github.com/user-attachments/assets/72cbb843-2d2c-4a07-861a-86d041f25e5c" />
